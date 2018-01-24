@@ -1,35 +1,43 @@
 # Summary
 
+- Overview
+  - [Architecture](sources/architecture.md)
+  - [Development](sources/development.md)
+- Getting Started
+- Tutorials
 - API Reference
   - Python
-    - [goodtables-py](sources/goodtables-py.md)
-    - [datapackage-py](sources/datapackage-py.md)
-    - [tableschema-py](sources/tableschema-py.md)
-    - [tabulator-py](sources/tabulator-py.md)
+    - [goodtables-py](references/goodtables-py.md)
+    - [datapackage-py](references/datapackage-py.md)
+    - [tableschema-py](references/tableschema-py.md)
+    - [tableschema-sql-py](references/tableschema-sql-py.md)
+    - [tableschema-bigquery-py](references/tableschema-bigquery-py.md)
+    - [tableschema-pandas-py](references/tableschema-pandas-py.md)
+    - [tabulator-py](references/tabulator-py.md)
   - JavaScript
-    - [goodtables-ui](sources/goodtables-ui.md)
-    - [datapackage-ui](sources/datapackage-ui.md)
-    - [datapackage-js](sources/datapackage-js.md)
-    - [tableschema-js](sources/tableschema-js.md)
+    - [goodtables-ui](references/goodtables-ui.md)
+    - [datapackage-ui](references/datapackage-ui.md)
+    - [datapackage-js](references/datapackage-js.md)
+    - [tableschema-js](references/tableschema-js.md)
   - Ruby
-    - [datapackage-rb](sources/datapackage-rb.md)
-    - [tableschema-rb](sources/tableschema-rb.md)
+    - [datapackage-rb](references/datapackage-rb.md)
+    - [tableschema-rb](references/tableschema-rb.md)
   - PHP
-    - [datapackage-php](sources/datapackage-php.md)
-    - [tableschema-php](sources/tableschema-php.md)
+    - [datapackage-php](references/datapackage-php.md)
+    - [tableschema-php](references/tableschema-php.md)
   - Go
-    - [datapackage-go](sources/datapackage-go.md)
-    - [tableschema-go](sources/tableschema-go.md)
+    - [datapackage-go](references/datapackage-go.md)
+    - [tableschema-go](references/tableschema-go.md)
   - Java
-    - [datapackage-java](sources/datapackage-java.md)
-    - [tableschema-java](sources/tableschema-java.md)
+    - [datapackage-java](references/datapackage-java.md)
+    - [tableschema-java](references/tableschema-java.md)
   - R
-    - [datapackage-r](sources/datapackage-r.md)
-    - [tableschema-r](sources/tableschema-r.md)
+    - [datapackage-r](references/datapackage-r.md)
+    - [tableschema-r](references/tableschema-r.md)
   - Clojure
-    - [datapackage-clj](sources/datapackage-clj.md)
-    - [tableschema-clj](sources/tableschema-clj.md)
+    - [datapackage-clj](references/datapackage-clj.md)
+    - [tableschema-clj](references/tableschema-clj.md)
   - Julia
-    - [datapackage-jl](sources/datapackage-jl.md)
-    - [tableschema-jl](sources/tableschema-jl.md)
+    - [datapackage-jl](references/datapackage-jl.md)
+    - [tableschema-jl](references/tableschema-jl.md)
 

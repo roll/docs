@@ -51,3 +51,4 @@ lib/
 package-lock.json
 .env
 static/
+_book

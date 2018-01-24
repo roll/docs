@@ -3,6 +3,9 @@
 - goodtables-py
 - datapackage-py
 - tableschema-py
+- tableschema-sql-py
+- tableschema-pandas-py
+- tableschema-bigquery-py
 - tabulator-py
 
 # JavaScript
