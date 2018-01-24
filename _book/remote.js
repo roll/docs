@@ -1,5 +1,6 @@
 const fs = require('fs')
 const yaml = require('js-yaml')
+const lodash = require('lodash')
 const axios = require('axios')
 
 
@@ -8,9 +9,10 @@ const axios = require('axios')
 async function main() {
   const sources = yaml.safeLoad(fs.readFileSync('remote.yml', 'utf8'))
   for (const source of sources) {
-    const url = `https://raw.githubusercontent.com/frictionlessdata/tabulator-py/master/README.md`
+    const repo = lodash.isString(source) ? {name: source, branch: 'master'} : source
+    const url = `https://raw.githubusercontent.com/frictionlessdata/${repo.name}/${repo.branch}/README.md`
     const doc = (await axios.get(url)).data
-    fs.writeFileSync(`sources/${source}.md`, doc)
+    fs.writeFileSync(`sources/${repo.name}.md`, doc)
   }
 }
 

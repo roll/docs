@@ -2,5 +2,34 @@
 
 - API Reference
   - Python
-    - [tabulator](sources/tabulator-py.md)
+    - [goodtables-py](sources/goodtables-py.md)
+    - [datapackage-py](sources/datapackage-py.md)
+    - [tableschema-py](sources/tableschema-py.md)
+    - [tabulator-py](sources/tabulator-py.md)
+  - JavaScript
+    - [goodtables-ui](sources/goodtables-ui.md)
+    - [datapackage-ui](sources/datapackage-ui.md)
+    - [datapackage-js](sources/datapackage-js.md)
+    - [tableschema-js](sources/tableschema-js.md)
+  - Ruby
+    - [datapackage-rb](sources/datapackage-rb.md)
+    - [tableschema-rb](sources/tableschema-rb.md)
+  - PHP
+    - [datapackage-php](sources/datapackage-php.md)
+    - [tableschema-php](sources/tableschema-php.md)
+  - Go
+    - [datapackage-go](sources/datapackage-go.md)
+    - [tableschema-go](sources/tableschema-go.md)
+  - Java
+    - [datapackage-java](sources/datapackage-java.md)
+    - [tableschema-java](sources/tableschema-java.md)
+  - R
+    - [datapackage-r](sources/datapackage-r.md)
+    - [tableschema-r](sources/tableschema-r.md)
+  - Clojure
+    - [datapackage-clj](sources/datapackage-clj.md)
+    - [tableschema-clj](sources/tableschema-clj.md)
+  - Julia
+    - [datapackage-jl](sources/datapackage-jl.md)
+    - [tableschema-jl](sources/tableschema-jl.md)
 
