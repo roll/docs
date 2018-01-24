@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Development · GitBook</title>
+        <title>Working with Data Package · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -63,8 +63,6 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    
-    <link rel="prev" href="architecture.html" />
     
 
     </head>
@@ -133,7 +131,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.2" data-path="development.html">
+        <li class="chapter " data-level="1.2.2" data-path="development.html">
             
                 <a href="development.html">
             
@@ -210,7 +208,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="working-with-data-package.html">
+        <li class="chapter active" data-level="1.4.1" data-path="working-with-data-package.html">
             
                 <a href="working-with-data-package.html">
             
@@ -799,7 +797,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Development</a>
+        <a href=".." >Working with Data Package</a>
     </h1>
 </div>
 
@@ -814,63 +812,68 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#development-process"><b>1. </b>Development Process</a></li><ul><li><span class="title-icon "></span><a href="#references"><b>1.1. </b>References</a></li></ul></ul></div><a href="#development-process" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="development-process"><a name="development-process" class="anchor-navigation-ex-anchor" href="#development-process"><i class="fa fa-link" aria-hidden="true"></i></a>1. Development Process</h1>
-<p>This document proposes a process to work on the technical side of the Frictionless Data project. The goal - have things manageable for a minimal price.</p>
-<h3 id="project"><a name="project" class="anchor-navigation-ex-anchor" href="#project"><i class="fa fa-link" aria-hidden="true"></i></a>Project</h3>
-<p>The specific of the project is a huge amount of components and actors (repositories, issues, contributors etc). The process should be effective in handling this specific.</p>
-<h3 id="process"><a name="process" class="anchor-navigation-ex-anchor" href="#process"><i class="fa fa-link" aria-hidden="true"></i></a>Process</h3>
-<p>The main idea to focus on getting things done and reduce the price of maintaining the process instead of trying to fully mimic some popular methodologies. We use different ideas from different methodologies.</p>
-<h3 id="roles"><a name="roles" class="anchor-navigation-ex-anchor" href="#roles"><i class="fa fa-link" aria-hidden="true"></i></a>Roles</h3>
-<ul>
-<li>Product Owner (PO)</li>
-<li>Product Manager (PM)</li>
-<li>Developer Advocate (DA)</li>
-<li>Technical Lead (TL)</li>
-<li>Senior Developer (SD)</li>
-<li>Junior Developer (JD)</li>
-</ul>
-<h3 id="board"><a name="board" class="anchor-navigation-ex-anchor" href="#board"><i class="fa fa-link" aria-hidden="true"></i></a>Board</h3>
-<p>We use a kanban board located at <a href="https://waffle.io/frictionlessdata/project" target="_blank">https://waffle.io/frictionlessdata/project</a> to work on the project. The board has following columns (ordered by issue stage):</p>
-<ul>
-<li>Backlog - unprocessed issues without labels and processed issues with labels</li>
-<li>Priority - prioritized issues planned for the next iterations (estimated and assigned)</li>
-<li>Current - current iteration issues promoted on iteration planning (estimated and assigned)</li>
-<li>Review - issues under review process</li>
-<li>Done - completed issues</li>
-</ul>
-<h3 id="workflow"><a name="workflow" class="anchor-navigation-ex-anchor" href="#workflow"><i class="fa fa-link" aria-hidden="true"></i></a>Workflow</h3>
-<p>The work on the project is a live process splitted into 2 weeks iterations between iteration plannings (including retrospection):</p>
-<ul>
-<li>Inside an iteration assigned persons work on their current issues and subset of roles do issues processing and prioritizing</li>
-<li>During the iteration planning the team moves issues from the Priority column to the Current column and assign persons. Instead of issue estimations assigned person approves amount of work for the current iteration as a high-level estimation.</li>
-</ul>
-<h3 id="milestones"><a name="milestones" class="anchor-navigation-ex-anchor" href="#milestones"><i class="fa fa-link" aria-hidden="true"></i></a>Milestones</h3>
-<p>As milestones we use concrete achievements e.g. from our roadmap. It could be tools or spec versions like &#x201C;spec-v1&#x201D;. We don&#x2019;t use the workflow related milestones like &#x201C;current&#x201D; of &#x201C;backlog&#x201D; managing it via the board labeling system.</p>
-<h3 id="labels"><a name="labels" class="anchor-navigation-ex-anchor" href="#labels"><i class="fa fa-link" aria-hidden="true"></i></a>Labels</h3>
-<p>Aside internal waffle labels and helpers labels like &#x201C;question&#x201D; etc we use core color-coded labels based on SemVer. The main point of processing issues from Inbox to Backlog is to add one of this labels because we need to plan releases, breaking announces etc:</p>
-<p><img src="https://cloud.githubusercontent.com/assets/557395/17673693/f6391676-632a-11e6-9971-945623b68e16.png" alt="labels"></p>
-<h3 id="assignments"><a name="assignments" class="anchor-navigation-ex-anchor" href="#assignments"><i class="fa fa-link" aria-hidden="true"></i></a>Assignments</h3>
-<p>Every issue in the Current column should be assigned to some person with meaning &#x201C;this person should do some work on this issue to unblock it&#x201D;. Assigned person should re-assign an issue for a current blocker. It provides a good real-time overview of the project.</p>
-<h3 id="analysis"><a name="analysis" class="anchor-navigation-ex-anchor" href="#analysis"><i class="fa fa-link" aria-hidden="true"></i></a>Analysis</h3>
-<p>After planning it&#x2019;s highly recommended for an assigned person to write a short plan of how to solve the issue (could be a list of steps) and ask someone to check. This work could be done on some previous stages by subset of roles.</p>
-<h3 id="branching"><a name="branching" class="anchor-navigation-ex-anchor" href="#branching"><i class="fa fa-link" aria-hidden="true"></i></a>Branching</h3>
-<p>We use Git Flow with some simplifications (see OKI coding standards). Master branch should always be &#x201C;green&#x201D; on tests and new features/fixes should go from pull requests. Direct committing to master could be allowed by subset of roles in some cases.</p>
-<h3 id="pull-requests"><a name="pull-requests" class="anchor-navigation-ex-anchor" href="#pull-requests"><i class="fa fa-link" aria-hidden="true"></i></a>Pull Requests</h3>
-<p>A pull request should be visually merged on the board to the corresponding issue using &#x201C;It fixes #issue-number&#x201D; sentence in the pull request description (initial comment). If there is no corresponding issue for the pull request it should be handled as an issue with labeling etc.</p>
-<h3 id="reviews"><a name="reviews" class="anchor-navigation-ex-anchor" href="#reviews"><i class="fa fa-link" aria-hidden="true"></i></a>Reviews</h3>
-<p>After sending a pull request the author should assign the pull request to another person &#x201C;asking&#x201D; for a code review. After the review code should be merged to the codebase by the pull request author (or person having enough rights).</p>
-<h3 id="documentation"><a name="documentation" class="anchor-navigation-ex-anchor" href="#documentation"><i class="fa fa-link" aria-hidden="true"></i></a>Documentation</h3>
-<p>By default documentation for a tool should be written in README.md not using additional files and folders. It should be clean and well-structured. API should be documented in the code as docstrings. We compile project level docs automatically.</p>
-<h3 id="testings"><a name="testings" class="anchor-navigation-ex-anchor" href="#testings"><i class="fa fa-link" aria-hidden="true"></i></a>Testings</h3>
-<p>Tests should be written using OKI coding standards. Start write tests from top (match high-level requirements) to bottom (if needed). The most high-level tests are implemented as testsuites on project level (integration tests between different tools).</p>
-<h3 id="releasing"><a name="releasing" class="anchor-navigation-ex-anchor" href="#releasing"><i class="fa fa-link" aria-hidden="true"></i></a>Releasing</h3>
-<p>We use SemVer for versioning and Travis for testing and releasing/deployments. We prefer short release cycle (features and fixes could be released immediately). Releases should be configured using tags based on package examples workflow provided by OKI.</p>
-<h2 id="references"><a name="references" class="anchor-navigation-ex-anchor" href="#references"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. References</h2>
-<ul>
-<li><a href="https://github.com/okfn/coding-standards" target="_blank">Open Knowledge International Coding Standards</a></li>
-<li><a href="https://github.com/okfn/oki-py" target="_blank">Python Package Example</a></li>
-<li><a href="https://github.com/okfn/oki-js" target="_blank">JavaScript Package Example</a></li>
-</ul>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#working-with-data-package"><b>1. </b>Working with Data Package</a></li><ul><li><span class="title-icon "></span><a href="#local-files"><b>1.1. </b>Local files</a></li><li><span class="title-icon "></span><a href="#inferring-metadata"><b>1.2. </b>Inferring metadata</a></li><li><span class="title-icon "></span><a href="#saving-data-package"><b>1.3. </b>Saving data package</a></li></ul></ul></div><a href="#working-with-data-package" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="working-with-data-package"><a name="working-with-data-package" class="anchor-navigation-ex-anchor" href="#working-with-data-package"><i class="fa fa-link" aria-hidden="true"></i></a>1. Working with Data Package</h1>
+<h2 id="local-files"><a name="local-files" class="anchor-navigation-ex-anchor" href="#local-files"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. Local files</h2>
+<p>Consider we have some local csv files in a <code>data</code> directory. Let&apos;s create a data package based on this data using a <code>Package</code> class:</p>
+<blockquote>
+<p>data/cities.csv</p>
+</blockquote>
+<pre><code class="lang-csv">city,location
+london,&quot;51.50,-0.11&quot;
+paris,&quot;48.85,2.30&quot;
+rome,&quot;41.89,12.51&quot;
+</code></pre>
+<blockquote>
+<p>data/population.csv</p>
+</blockquote>
+<pre><code class="lang-csv">city,year,population
+london,2017,8780000
+paris,2017,2240000
+rome,2017,2860000
+</code></pre>
+<h2 id="inferring-metadata"><a name="inferring-metadata" class="anchor-navigation-ex-anchor" href="#inferring-metadata"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. Inferring metadata</h2>
+<p>First we create a blank data package:</p>
+<pre><code class="lang-python">package = Package()
+</code></pre>
+<p>Now we&apos;re ready to infer a data package descriptor based on data files we have. Because we have two csv files we use glob pattern <code>**/*.csv</code>:</p>
+<pre><code class="lang-python">package.infer(<span class="hljs-string">&apos;**/*.csv&apos;</span>)
+package.descriptor
+<span class="hljs-comment">#{ profile: &apos;tabular-data-package&apos;,</span>
+<span class="hljs-comment">#  resources:</span>
+<span class="hljs-comment">#   [ { path: &apos;data/cities.csv&apos;,</span>
+<span class="hljs-comment">#       profile: &apos;tabular-data-resource&apos;,</span>
+<span class="hljs-comment">#       encoding: &apos;utf-8&apos;,</span>
+<span class="hljs-comment">#       name: &apos;cities&apos;,</span>
+<span class="hljs-comment">#       format: &apos;csv&apos;,</span>
+<span class="hljs-comment">#       mediatype: &apos;text/csv&apos;,</span>
+<span class="hljs-comment">#       schema: [Object] },</span>
+<span class="hljs-comment">#     { path: &apos;data/population.csv&apos;,</span>
+<span class="hljs-comment">#       profile: &apos;tabular-data-resource&apos;,</span>
+<span class="hljs-comment">#       encoding: &apos;utf-8&apos;,</span>
+<span class="hljs-comment">#       name: &apos;population&apos;,</span>
+<span class="hljs-comment">#       format: &apos;csv&apos;,</span>
+<span class="hljs-comment">#       mediatype: &apos;text/csv&apos;,</span>
+<span class="hljs-comment">#       schema: [Object] } ] }</span>
+</code></pre>
+<p>An <code>infer</code> method has found all our files and inspected it to extract useful metadata like profile, encoding, format, Table Schema etc. Let&apos;s tweak it a little bit:</p>
+<pre><code class="lang-python">package.descriptor[<span class="hljs-string">&apos;resources&apos;</span>][<span class="hljs-number">1</span>][<span class="hljs-string">&apos;schema&apos;</span>][<span class="hljs-string">&apos;fields&apos;</span>][<span class="hljs-number">1</span>][<span class="hljs-string">&apos;type&apos;</span>] = <span class="hljs-string">&apos;year&apos;</span>
+package.commit()
+package.valid <span class="hljs-comment"># true</span>
+</code></pre>
+<p>Because our resources are tabular we could read it as a tabular data:</p>
+<pre><code class="lang-python">package.get_resource(<span class="hljs-string">&apos;population&apos;</span>).read(keyed=<span class="hljs-keyword">True</span>)
+<span class="hljs-comment">#[ { city: &apos;london&apos;, year: 2017, population: 8780000 },</span>
+<span class="hljs-comment">#  { city: &apos;paris&apos;, year: 2017, population: 2240000 },</span>
+<span class="hljs-comment">#  { city: &apos;rome&apos;, year: 2017, population: 2860000 } ]</span>
+</code></pre>
+<h2 id="saving-data-package"><a name="saving-data-package" class="anchor-navigation-ex-anchor" href="#saving-data-package"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. Saving data package</h2>
+<p>Let&apos;s save our descriptor on the disk as a zip-file:</p>
+<pre><code class="lang-python">package.save(<span class="hljs-string">&apos;datapackage.zip&apos;</span>)
+</code></pre>
+<p>To continue the work with the data package we just load it again but this time using local <code>datapackage.zip</code>:</p>
+<pre><code class="lang-python">package = Package(<span class="hljs-string">&apos;datapackage.zip&apos;</span>)
+<span class="hljs-comment"># Continue the work</span>
+</code></pre>
 
                                 
                                 </section>
@@ -898,10 +901,6 @@
 
             
                 
-                <a href="architecture.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Architecture">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
                 
             
         
@@ -910,7 +909,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Development","level":"1.2.2","depth":2,"next":{"title":"Contributing","level":"1.2.3","depth":2,"ref":"","articles":[]},"previous":{"title":"Architecture","level":"1.2.1","depth":2,"path":"sources/architecture.md","ref":"sources/architecture.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["anchor-navigation-ex","livereload"],"pluginsConfig":{"anchor-navigation-ex":{"showLevel":true,"associatedWithSummary":true,"mode":"float","printLog":false,"multipleH1":true,"float":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"INTRODUCTION.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"sources/development.md","mtime":"2018-01-24T08:27:26.542Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-24T08:33:28.448Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Working with Data Package","level":"1.4.1","depth":2,"next":{"title":"Inferring metadata","level":"1.4.2","depth":2,"ref":"","articles":[]},"previous":{"title":"Tutorials","level":"1.4","depth":1,"ref":"","articles":[{"title":"Working with Data Package","level":"1.4.1","depth":2,"path":"sources/working-with-data-package.md","ref":"sources/working-with-data-package.md","articles":[]},{"title":"Inferring metadata","level":"1.4.2","depth":2,"ref":"","articles":[]},{"title":"Import/export to SQL","level":"1.4.3","depth":2,"ref":"","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["anchor-navigation-ex","livereload"],"pluginsConfig":{"anchor-navigation-ex":{"showLevel":true,"associatedWithSummary":true,"mode":"float","printLog":false,"multipleH1":true,"float":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"INTRODUCTION.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"sources/working-with-data-package.md","mtime":"2018-01-24T08:50:14.905Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-24T08:33:28.448Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

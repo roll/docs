@@ -3,8 +3,13 @@
 - Overview
   - [Architecture](sources/architecture.md)
   - [Development](sources/development.md)
+  - Contributing
 - Getting Started
+  - How to use libraries
 - Tutorials
+  - [Working with Data Package](sources/working-with-data-package.md)
+  - Inferring metadata
+  - Import/export to SQL
 - API Reference
   - Python
     - [goodtables-py](references/goodtables-py.md)
