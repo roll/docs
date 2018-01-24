@@ -1,0 +1,7 @@
+#anchor-navigation-ex-navbar {
+  max-height: 60%;
+}
+
+#anchor-navigation-ex-navbar ul {
+  display: block !important;
+}
